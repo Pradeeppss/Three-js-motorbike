@@ -19,6 +19,7 @@ const material = new Three.MeshBasicMaterial({ color: 0xffffff });
 const lineMaterial = new Three.LineBasicMaterial({ color: 0xffffff });
 const cube = new Three.Mesh(geometry, material);
 // scene.add(cube);
+
 camera.position.set(0, 0, 5);
 camera.lookAt(0, 0, 0);
 //line
